@@ -3,13 +3,7 @@ import type { AppProps } from "next/app";
 
 import { AnimatePresence } from "framer-motion";
 
-type Props = {
-  Component: React.ElementType;
-  pageProps: {};
-  router: any;
-};
-
-const MyApp = ({ Component, pageProps, router }: Props) => {
+const MyApp = ({ Component, pageProps, router }: AppProps) => {
   return (
     <div className="text-blue-900">
       <AnimatePresence mode="wait" initial={false}>
