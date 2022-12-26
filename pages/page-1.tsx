@@ -3,14 +3,14 @@ import AnimationWrapper from "../components/AnimationWrapper";
 
 const Page1 = () => {
   return (
-    <AnimationWrapper>
-      <div className="w-screen h-screen flex justify-center items-center bg-blue-50 flex-col">
+    <div className="w-screen h-screen flex justify-center items-center flex-col">
+      <AnimationWrapper>
         <h1 className="text-5xl">Page 1</h1>
         <Link className="text-3xl" href="/">
           Home
         </Link>
-      </div>
-    </AnimationWrapper>
+      </AnimationWrapper>
+    </div>
   );
 };
 

@@ -3,8 +3,8 @@ import AnimationWrapper from "../components/AnimationWrapper";
 
 export default function Home() {
   return (
-    <AnimationWrapper>
-      <div className="w-screen h-screen bg-blue-50 flex justify-center items-center">
+    <div className="w-screen h-screen flex justify-center items-center">
+      <AnimationWrapper>
         <ul>
           <li>
             <Link className="text-3xl" href="/page-1">
@@ -18,7 +18,7 @@ export default function Home() {
             </Link>
           </li>
         </ul>
-      </div>
-    </AnimationWrapper>
+      </AnimationWrapper>
+    </div>
   );
 }
